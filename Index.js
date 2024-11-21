@@ -18,7 +18,7 @@ const dbConfig = {
     database: 'acore_auth', // Database name
 };
 
-// Middleware setup
+// This is the Middleware setup
 app.use(bodyParser.json());
 app.use(cors());
 
